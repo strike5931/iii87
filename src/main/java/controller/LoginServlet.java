@@ -44,7 +44,7 @@ public class LoginServlet extends HttpServlet {
 			return;
 		}
 		
-//呼叫Mod
+//呼叫Mod安泰妳是北七嗎
 		CustomerBean bean = customerService.login(username, password);
 
 //呼叫View
