@@ -19,7 +19,7 @@ import model.CustomerService;
 )
 public class LoginServlet extends HttpServlet {
 	private CustomerService customerService = new CustomerService();
-	
+//	QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
 	@Override
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
